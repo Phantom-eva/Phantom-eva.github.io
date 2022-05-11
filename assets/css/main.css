@@ -87,7 +87,8 @@ input, select, textarea {
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		/* font-family: 'Source Sans Pro', sans-serif; */
+		font-family: Times, "Times New Roman", Georgia, serif;
 		font-weight: 300;
 	}
 
@@ -105,7 +106,7 @@ input, select, textarea {
 	input, textarea, select {
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: Times, "Times New Roman", Georgia, serif;
 		font-weight: 300;
 	}
 
@@ -2176,7 +2177,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/home.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;

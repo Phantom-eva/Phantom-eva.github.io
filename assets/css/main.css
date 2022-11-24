@@ -228,7 +228,6 @@ input, select, textarea {
 	}
 
 /* Container */
-
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
@@ -2164,9 +2163,11 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		background: transparent;
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
+		margin-left: 20%;
+		margin-right: 20%;
 	}
 
 		.wrapper.style2 {
@@ -2408,15 +2409,21 @@ input, select, textarea {
 
 /* Banner */
 
-	#banner {
-		background: #fff;
+	#intro {
+		background: transparent;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
+		margin-left: 30%;
+		margin-right: 30%;
+		border-width: 10px;
+		border-color: aqua;
+		text-align: left;
 	}
 
 		#banner header > p {
 			margin-bottom: 0;
+			text-align: left;
 		}
 
 /* Content */

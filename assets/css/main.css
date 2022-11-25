@@ -18,7 +18,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 10;
+	margin: 0;
 	padding: 5;
 	border: 10;
 	font-size: 100%;
@@ -2409,22 +2409,20 @@ input, select, textarea {
 
 /* Banner */
 
-	#intro {
-		background: transparent;
-		text-align: center;
-		padding: 4.5em 0 4.5em 0;
-		margin-bottom: 0;
-		margin-left: 30%;
-		margin-right: 30%;
-		border-width: 10px;
-		border-color: aqua;
-		text-align: left;
+	.intro {
+		display:flex;
+		justify-content: space-between;
+		padding:20px;
+		width:40%;
+		margin-left:30%;
+		margin-top: 2%;
+		margin-bottom: 2%;
 	}
 
-		#banner header > p {
-			margin-bottom: 0;
-			text-align: left;
-		}
+	.intro-fig img{
+		float:right;
+		width:100%;
+	}
 
 /* Content */
 
